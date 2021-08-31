@@ -1,5 +1,8 @@
 # botbuilder-adapter-twilio-sms
 
+NOTE: This is a copy made by Sassafras of the directory in the main botkit repo. There doesn't appear to be a way to do a proper fork
+given that the package lives in a subdirectory.
+
 Connect [Botkit](https://www.npmjs.com/package/botkit) or [BotBuilder](https://www.npmjs.com/package/botbuilder) to Twilio SMS.
 
 This package contains an adapter that communicates directly with the Twilio API,
@@ -80,7 +83,7 @@ server.post('/api/messages', (req, res) => {
 
 ## Event List
 
-Botkit will emit the following events: 
+Botkit will emit the following events:
 
 | Event | Description
 |--- |---
